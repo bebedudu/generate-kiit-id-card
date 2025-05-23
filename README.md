@@ -43,7 +43,7 @@ The KIIT Digital ID Card Builder is a web application that allows users to gener
 ## Setup Instructions
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/bebedudu/kiit-id-card-generator
+   git clone https://github.com/bebedudu/generate-kiit-id-card
    cd kiit-id-card-builder
    ```
 
