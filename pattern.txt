@@ -5,16 +5,16 @@
 |                | (Established U/S 3 of UGC Act, 1956)        |
 |                | Bhubaneswar, Odisha, India                  |
 +-------------------------------------------------------------+
-|                 IDENTITY CARD                               |
+|                     IDENTITY CARD                           |
 +-------------------------------------------------------------+
-|                 School of Computer Engineering               |
+|             School of Computer Engineering                  |
 +-------------------------------------------------------------+
-| [Photo Placeholder]                                         |
+|                  [Photo Placeholder]                        |
 +-------------------------------------------------------------+
 | Course       : B.TECH                                       |
 | Branch       : CSE                                          |
-| Roll No      : 22054029                                     |
-| Student No   : 1000191240                                   |
+| Roll No      : 22054___                                     |
+| Student No   : 100019____                                   |
 +-------------------------------------------------------------+
-| Director (Signature/Stamp)                                  |
+|                                         Director Gen        |
 +-------------------------------------------------------------+
