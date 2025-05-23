@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KIIT Digital ID Card Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Enter ID Card Details</h2>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+      <div class="progress-text" id="progressText">0% Complete</div>
+    </div>
+    <button id="themeToggle" class="theme-toggle">Toggle Dark/Light Theme</button>
+    <form id="idForm">
+      <label>Profile Photo: <input type="file" id="photo" accept="image/*" required></label>
+      <label>School Name: <input type="text" id="school" value="School of Computer Engineering" required></label>
+      <label>Course: <input type="text" id="course" value="B.TECH" required></label>
+      <label>Name: <input type="text" id="name" required></label>
+      <label>Branch: <input type="text" id="branch" required></label>
+      <label>Roll Number: <input type="text" id="roll" required></label>
+      <label>Student No.: <input type="text" id="studentNo" required></label>
+      <label>Father's Name: <input type="text" id="father" required></label>
+      <label>Session: <input type="text" id="session" required></label>
+      <label>Valid Upto: <input type="text" id="valid" required></label>
+      <div class="button-group">
+        <button type="submit">Generate ID Card</button>
+        <button type="button" id="saveBtn">Save Data</button>
+        <button type="button" id="loadBtn">Load Data</button>
+        <button type="button" id="resetBtn">Reset Form</button>
+        <button type="button" id="previewBtn">Preview Card</button>
+        <button type="button" id="pdfBtn">Export PDF</button>
+      </div>
+    </form>
+  </div>
+  <div class="card-container">
+    <div class="id-card" id="idCard">
+      <div class="card-face card-front" id="cardFront"></div>
+      <div class="card-face card-back" id="cardBack"></div>
+    </div>
+    <button id="flipBtn" style="display:none;">Flip Card</button>
+  </div>
+  <div id="previewModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="previewContent"></div>
+    </div>
+  </div>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
